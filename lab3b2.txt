@@ -1,0 +1,7 @@
+fo = open("lab.txt", "w+")
+print "Lines in the file: ", fo.name
+line = fo.readline()
+print "Read Line: %s" % (line)
+line = fo.readline(8)
+print "Read Line: %s" % (line)
+fo.close()
